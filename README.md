@@ -10,7 +10,7 @@ Bikeshare trends
 Study bikeshare service patterns in 3 cities: Chicago, NYC, Washington DC. Produce summary statistics in user inputted cities, days of week, trends in usage and so on.
 
 ### Files used
-Files used: .csv files containing bikeshare service data in 3 cities: chicago.csv, new_york_city.csv, washington.csv
+.csv files containing bikeshare service data in 3 cities: chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 Udacity python course instructors
