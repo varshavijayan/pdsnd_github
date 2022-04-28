@@ -159,6 +159,7 @@ def user_stats(df):
         common = int(df['Birth Year'].mode()[0])
 
         print('Earliest birth year is {}, most recent birth year is {}, most common birth year is {}.'.format(earliest, recent, common))
+        print('Think about whether the earliest birth year makes sense or not :-)')
     except KeyError:
         print('No birth year data available for this city!')
 
