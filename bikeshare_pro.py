@@ -130,6 +130,9 @@ def trip_duration_stats(df):
     # TO DO: display mean travel time
     print('Total travel duration:',df['Trip Duration'].mean())
 
+    # Print summary statistics of trip duration
+    print('Summary stats travel duration:',df['Trip Duration'].summary())
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -156,6 +159,7 @@ def user_stats(df):
         common = int(df['Birth Year'].mode()[0])
 
         print('Earliest birth year is {}, most recent birth year is {}, most common birth year is {}.'.format(earliest, recent, common))
+        print('Think about whether the earliest birth year makes sense or not :-)')
     except KeyError:
         print('No birth year data available for this city!')
 
